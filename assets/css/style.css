@@ -861,6 +861,18 @@ p {
 /*===========================
     3.ABOUT css 
 ===========================*/
+
+#about .list {
+  margin-bottom: 20px;
+}
+
+#about .list li::before {
+  content: '\f00c';
+  margin-right: 10px;
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  color: #ee2d24;
+}
 @media (max-width: 767px) {
   .about-area {
     padding-top: 30px;
