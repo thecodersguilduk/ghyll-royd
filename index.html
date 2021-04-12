@@ -593,8 +593,10 @@
                                 <h4 class="title">Essential Links</h4>
                             </div>
                             <ul class="mt-15">
-                                <li><a href="#about">About The Bursary</a></li>
                                 <li><a href="https://www.ghyllroydschool.co.uk/" target="_blank" rel="noreferrer noopener">Main Website</a></li>
+                                <li><a href="https://www.ghyllroydschool.co.uk/school/academic-attainment/" target="_blank" rel="noreferrer noopener">SAT Examination Results</a></li>
+                                <li><a href="https://www.ghyllroydschool.co.uk/events/leap-holiday-school-summer-dates-2021/" target="_blank" rel="noreferrer noopener">LEAP Holiday School</a></li>
+                                <li><a href="https://www.ghyllroydschool.co.uk/about-us/isi-report/" target="_blank" rel="noreferrer noopener">ISI Report</a></li>
                             </ul>
                         </div>
                     </div>
@@ -643,10 +645,9 @@
         <div class="copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright text-center">
-                            <p>Built in conjunction with &copy;  <a href="https://thecodersguild.org.uk/" target="_blank" rel="nofollow">The Coders Guild</a></p>
-                        </div> <!-- copyright -->
+                    <div class="col-lg-3"><p>&copy; Ghyll Royd School <span class="year"></span></p></div>
+                    <div class="col-lg-5"><p>Company Number: 03583140 | Registered Charity No. 1070235</p></div>
+                    <div class="col-lg-4"><p>Built in conjunction with <a href="https://thecodersguild.org.uk/" target="_blank" rel="nofollow">The Coders Guild</a></p>
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
@@ -683,7 +684,10 @@
 
 
 
-
+    <script>
+        const yearDisplay = document.querySelector('.year');
+        yearDisplay.textContent = new Date().getFullYear();
+    </script>
 
 
     <!--====== jquery js ======-->
