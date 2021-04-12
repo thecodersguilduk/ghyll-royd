@@ -814,6 +814,7 @@ p {
 }
 .header-banner .banner-content .banner-title {
   font-size: 60px;
+  background-color: #fff;
 }
 .header-banner .banner-content .banner-title span {
   color: #ee2d24;
