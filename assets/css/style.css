@@ -1026,11 +1026,15 @@ p {
   }
 }
 
+#awards,
+.about-title,
 .about-content .about-title {
   font-size: 35px;
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
+  #awards,
+  .about-title,
   .about-content .about-title {
     font-size: 26px;
   }
