@@ -814,6 +814,7 @@ p {
 }
 .header-banner .banner-content .banner-title {
   font-size: 60px;
+  background-color: #fff;
 }
 .header-banner .banner-content .banner-title span {
   color: #ee2d24;
@@ -828,9 +829,19 @@ p {
   font-size: 15px;
   font-weight: 600;
   font-family: 'Barlow', sans-serif;
-  color: #ee2d24;
+  color: #fff;
+  background-color: #ee2d24;
+  border: 1px solid #ee2d24;
+  padding: 10px 20px;
   text-transform: uppercase;
   margin-left: 70px;
+  transition: all 0.4s ease-out 0s;
+}
+
+.header-banner .banner-content .banner-contact:hover {
+  color: #ee2d24;
+  box-shadow: 0px 5px 16px 0px rgb(235 54 86 / 65%);
+  background-color: #fff;
 }
 .header-banner .banner-content .banner-contact::before {
   position: absolute;
@@ -850,6 +861,18 @@ p {
 /*===========================
     3.ABOUT css 
 ===========================*/
+
+#about .list {
+  margin-bottom: 20px;
+}
+
+#about .list li::before {
+  content: '\f00c';
+  margin-right: 10px;
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  color: #ee2d24;
+}
 @media (max-width: 767px) {
   .about-area {
     padding-top: 30px;
