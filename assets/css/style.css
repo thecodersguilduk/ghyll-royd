@@ -783,12 +783,12 @@ p {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-banner {
-    height: 500px;
+    height: 900px;
   }
 }
 @media (max-width: 767px) {
   .header-banner {
-    height: 500px;
+    height: 1000px;
   }
 }
 .header-banner .banner-image {
@@ -814,7 +814,7 @@ p {
 }
 .header-banner .banner-content .banner-title {
   font-size: 60px;
-  background-color: #fff;
+  z-index: -1;
 }
 .header-banner .banner-content .banner-title span {
   color: #ee2d24;
